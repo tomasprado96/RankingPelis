@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2b2c36;
+}
+
+#primero{
+    padding-top: 5%;
+}
+#texto{
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(210, 220, 230);
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#texto2{
+    font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(210, 220, 230);
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+#segundo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+
+}
+
+#tercero{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#paginas select{
+    width: 8rem;
+    height: 150%;
+    font-size: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 9px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(210, 220, 230);
+    background-color: #2b2c36;
+    outline: none;
+    border: 2px, solid, rgb(210, 220, 230);
+}
+
+#idiomas select{
+    width: 8rem;
+    height: 150%;
+    font-size: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 9px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(210, 220, 230);
+    outline: none;
+    border: 2px, solid, rgb(210, 220, 230);
+    background-color: #2b2c36;
+    cursor: pointer;
+}
+
+#idiomas select:hover{
+    color: rgb(158, 167, 175);
+    border: 2px, solid, rgb(158, 167, 175); 
+
+}
+
+#paginas select:hover{
+    color: rgb(158, 167, 175);
+    border: 2px, solid, rgb(158, 167, 175); 
+
+}
+
+button{
+    width: 6rem;
+    height: 150%;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    border-radius: 9px;
+    color: #2b2c36;
+    background-color: rgb(210, 220, 230);
+    border: 2px, solid, rgb(210, 220, 230);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(156, 165, 173);
+    border: 2px, solid, rgb(156, 165, 173);
+    color: #3d3e4d;
+}
+
+#contenedor{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+}
+
+#desc{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#foto{
+    width: ;
+}
